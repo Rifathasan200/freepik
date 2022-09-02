@@ -1553,11 +1553,14 @@ body {
 /* -------------------------- Download part end -------------------------------*/
 /* ================================ VECTOR_INER.HTML CSS END ============================== */
 /* =========================== SIGN UP CSS START ===================== */
-header .nav ul{
+header{
+    margin-top: 80px;
+}
+header .logo-part ul{
     text-align: center;
     padding:15px 0px;
 }
-header .nav ul li{
+header .logo-part ul li{
     display: inline-block;
     margin-left: 15px;
 }
