@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreePik</title>
+    <!----- fonts link start ----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <!----- fonts link end ----->
+
+    <!----- css link start ----->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!----- css link start ----->
+</head>
+<body>
+
+<!-- =====================
+       Nav part start
+=============================-->
+
+<nav class="navbar navbar-expand-lg navbar-light menu ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/footer-logo-img.png" alt="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="vectors.html">Vectors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Figma</a>
+          </li>
+          <li class="nav-item sub-nav-item">
+            <a class="nav-link" href="#">Tools</a>
+            <div class="sub-nav-link">New</div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Collections</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sell your content</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html" target="_blank">Log in</a>
+                  </li>
+            </ul>
+          <div class="nav-button">
+            <a class="button" href="signup.html" target="_blank"> Sign up</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- =====================
+       Nav part end
+=============================-->
+
+<!-- =====================
+     Banner part start
+=============================-->
+
+<section id="banner-part">
+  <div class="container">
+    <div class="title">
+      <h1>All the assets you need, in one place</h1>
+      <p>Find and download the best high-quality photos, designs and mockups</p>
+    </div>
+    <div class="search-box">
+      <div class="main">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Images
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">Images</label>
+            </a>
+          </li>
+            <li>
+              <a class="dropdown-item" href="#">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"> Collections </label>
+            </a>
+          </li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">Free</label>
+             </a>
+            </li>
+            <li>
+              <a class="dropdown-item premium" href="#">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                <i class="fa-solid fa-crown"></i> Premium</label> 
+              </a>
+            </li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">Vectors </label>
+                </a>
+              </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate"> Photos </label>                 
+                </a>
+              </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">Figma </label>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">Tools </label>
+                </a>
+              </li>
+          </ul>
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search all images">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      </div>
+    </div>
+    <div class="button-part">
+      <div class="main">
+        <ul>
+          <li><a class="button" href="#"><i class="fa-solid fa-magnifying-glass"></i> Business card</a></li>
+        </ul>
+        <ul>
+          <li><a class="button" href="#"><i class="fa-solid fa-magnifying-glass"></i> Social media post</a></li>
+        </ul>
+        <ul>
+          <li><a class="button" href="#"><i class="fa-solid fa-magnifying-glass"></i> Logo mockup</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="images-part">
+     <div class="row">
+     <div class="col sub-col ">
+      <div class="img-round">
+        <div class="img">
+          <a  href="#">
+            <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+            <div class="img-overlay"></div>
+          </a>
+        </div>
+        <h5>Vectors</h5>
+      </div>
+     </div>
+      <div class="col sub-col ">
+        <div class="img-round">
+          <div class="img">
+            <a href="#">
+              <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+              <div class="img-overlay"></div>
+            </a>
+          </div>
+          <h5>IIlustrations</h5>
+        </div>
+      </div>
+      <div class="col sub-col ">
+        <div class="img-round">
+          <div class="img">
+            <a href="#">
+              <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+              <div class="img-overlay"></div>
+            </a>
+          </div>
+          <h5>Photos</h5>
+        </div>
+      </div>
+     <div class="col sub-col">
+      <div class="img-round">
+        <div class="img">
+          <a href="#">
+            <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+            <div class="img-overlay"></div>
+          </a>
+        </div>
+        <h5>Templates</h5>
+      </div>
+     </div>
+      <div class="col sub-col ">
+        <div class="img-round">
+          <div class="img">
+            <a href="#">
+              <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+              <div class="img-overlay"></div>
+            </a>
+          </div>
+          <h5>Tools</h5>
+        </div>
+      </div>
+      <div class="col sub-col ">
+        <div class="img-round">
+          <div class="img">
+            <a href="#">
+              <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+              <div class="img-overlay"></div>
+            </a>
+          </div>
+          <h5>Mockups</h5>
+        </div>
+      </div>
+      <div class="col sub-col ">
+        <div class="img-round">
+          <div class="img">
+            <a href="#">
+              <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+              <div class="img-overlay"></div>
+            </a>
+          </div>
+          <h5>Backgrounds</h5>
+        </div>
+      </div>
+      <div class="col sub-col ">
+        <div class="img-round">
+          <div class="img">
+            <a href="#">
+              <img class="img-one" src="images/banner-img-1.jpg" alt="banner-img-1.jpg">
+              <div class="img-overlay"></div>
+            </a>
+          </div>
+          <h5>Text Effects</h5>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</section>
+<!-- =====================
+    Banner part end
+=============================-->
+<section id="sub-banner">
+  <div class="container">
+    <div class="main">
+     <div class="text">
+      <p>Create an account to enjoy more free downloads</p>
+     </div>
+     <div class="sub-banner-button">
+      <a class="button" href="#">Sign up for free</a>
+     </div>
+    </div>
+  </div>
+</section>
+<!-- =====================
+    Categories part start
+=============================-->
+<section id="categories-part">
+  <div class="container">
+    <div class="title">
+      <h1> <span>Explore</span> trending categories on Freepik</h1>
+      <p>Check what’s popular on Freepik and make your project look trendy and professional. </p>
+    </div>
+    <div class="row">
+      <div class="top">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="img">
+              <a href="#">
+                <img src="images/categories-img-6.png" alt="categories-img-6">
+              <div class="overlay">
+                <span>People kissing</span>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="img">
+              <a href="#">
+                <img src="images/categories-img-7.png" alt="categories-img-7">
+              <div class="overlay">
+                <span>People kissing</span>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="img">
+             <a href="#">
+              <img src="images/categories-img-8.png" alt="categories-img-8">
+              <div class="overlay">
+                <span>People kissing</span>
+              </div>
+             </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="img">
+             <a href="#">
+              <img src="images/categories-img-9.png" alt="categories-img-9">
+              <div class="overlay">
+                <span>People kissing</span>
+              </div>
+             </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="img">
+                      <a href="#">
+                        <img src="images/categories-img-2.png" alt="categories-img-2">
+                      <div class="overlay">
+                        <span>People kissing</span>
+                      </div>
+                      </a>
+                    </div>
+                  </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="img">
+                    <a href="#">
+                      <img src="images/categories-img-3.png" alt="categories-img-3">
+                    <div class="overlay">
+                      <span>People kissing</span>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <div class="img">
+                    <a href="#">
+                      <img src="images/categories-img-4.png" alt="categories-img-4">
+                    <div class="overlay">
+                      <span>People kissing</span>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/categories-img-5.png" alt="categories-img-5">
+                  <div class="overlay">
+                    <span>People kissing</span>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="img md-img">
+                <a href="#">
+                  <img src="images/categories-img-1.png" alt="categories-img-1">
+                <div class="overlay">
+                  <span>People kissing</span>
+                </div>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+    Categories part end
+=============================-->
+
+<!-- =====================
+    Creator part start
+=============================-->
+
+<section id="creator-part">
+  <div class="container">
+    <div class="title">
+      <h1>Unlock your inner <span>creator</span></h1>
+      <p>Get the inspiration you need with these collections carefully selected to boost your project’s engagement. </p>
+    </div>
+    <div class="item-slider">
+      <div class="item">
+            <a href="#">
+              <div class="img">
+                <img src="images/creator-img-1.png" alt="creator-img-1">
+                <div class="overlay">
+                  <div class="details">
+                    <h5>School Again</h5>
+                    <h6>150 images</h6>
+                  </div>
+                </div>
+            </div>
+            </a>
+    </div>
+    <div class="item">
+     <a href="#">
+      <div class="img">
+        <img src="images/creator-img-2.png" alt="creator-img-2">
+        <div class="overlay">
+          <div class="details">
+            <h5>School Again</h5>
+            <h6>150 images</h6>
+          </div>
+        </div>
+    </div>
+     </a>
+</div>
+<div class="item">
+  <a href="#">
+    <div class="img">
+      <img src="images/creator-img-3.png" alt="creator-img-3">
+      <div class="overlay">
+        <div class="details">
+          <h5>School Again</h5>
+          <h6>150 images</h6>
+        </div>
+      </div>
+  </div>
+  </a>
+</div>
+<div class="item">
+  <a href="#" target="_blank">
+    <div class="img">
+      <img src="images/creator-img-4.png" alt="creator-img-4">
+      <div class="overlay">
+        <div class="details">
+          <h5>School Again</h5>
+          <h6>150 images</h6>
+        </div>
+      </div>
+  </div>
+  </a>
+</div>
+<div class="item explore-item">
+  <a href="https://www.facebook.com/profile.php?id=100048422002931" target="_blank"> <span>Explore <i class="fa-solid fa-arrow-right"></i></span> </a>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+    Creator part end
+=============================-->
+
+<!-- =====================
+    Creatives part start
+=============================-->
+
+<section id="creative-part">
+  <div class="container">
+    <div class="title">
+      <h1>The smartest choice for <span>creatives like you</span></h1>
+      <p>Whether you’re looking for designs or photographs, you’ll find the perfect asset on Freepik.  </p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="img-part">
+          <div class="main">
+              <div class="left-img">
+                  <img src="images/top choto img.png" alt="top choto img">
+                  <img src="images/bottom boro img.png" alt="bottom boro img">
+              </div>
+              <div class="right-img">
+                  <img src="images/top boro img.png" alt="top boro img">
+                  <img src="images/bottom choto img.png" alt="bottom choto img">
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="details">
+          <div class="item">
+              <div class="number">
+                  <h6><i class="fa-solid fa-star"></i></h6>
+              </div>
+              <div class="text">
+                  <h5>High-quality stock content </h5>
+              <p>Download scroll-stopping images of the best quality to make your projects look professional. </p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="number">
+                  <h6 class="number-two"><i class="fa-solid fa-thumbs-up"></i></h6>
+              </div>
+              <div class="text">
+                  <h5>Ready-to-use assets </h5>
+              <p>Access thousands of images and designs ready-to-publish and get your project ready double quick.</p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="number">
+                  <h6 class="number-three"><i class="fa-solid fa-magnifying-glass"></i></h6>
+              </div>
+              <div class="text">
+                  <h5>Guaranteed search results</h5>
+              <p>There’s an image and style for every project, whatever your needs are. </p>
+              </div>
+          </div>
+          <div class="item">
+            <div class="number">
+                <h6><i class="fa-solid fa-arrows-rotate"></i></h6>
+            </div>
+            <div class="text">
+                <h5>Fresh content everyday</h5>
+            <p>Our library is updated on a daily basis so you can find the newest and trendiest photos and designs. </p>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+    Creatives part end
+=============================-->
+
+<!-- =====================
+    Edit part start
+=============================-->
+
+<section id="edit-part">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="details">
+          <div class="img">
+            <img src="images/edit-details-img.png" alt="edit-details-img">
+          </div>
+          <h4>Create beautiful designs online.</h4>
+          <p>Customize and download free templates to make stunning designs with our online editing tool.</p>
+          <a class="button" href="#">Start editing online	</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="image">
+          <img src="images/edit-img-1.png" alt="edit-img-1">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+    Edit part end
+=============================-->
+
+<!-- =====================
+    Community part end
+=============================-->
+
+<section id="community-part">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="img">
+          <img src="images/community-img-1.png" alt="community-img-1">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="details">
+          <div class="title">
+            <h1>Join Freepik’s <span>creator community</span></h1>
+            <p>Behind every stock image there’s a creative mind. You can also create content and sell it on Freepik</p>
+          </div>
+          <div class="community-button">
+            <a class="button" href="#">Sell your content</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+    Community part end
+=============================-->
+
+<!-- =====================
+    Footer part start
+=============================-->
+
+<section id="footer-part">
+  <div class="container">
+  <div class="line">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item">
+          <h1>CONSTRUCTION</h1>
+          <p>You’ll find your next Home loan valu you prefer.</p>
+          <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item">
+           <div class="details">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#">Our Agents</a></li>
+              <li><a href="#">Member Stories</a></li>
+              <li><a href="#">Video</a></li>
+              <li><a href="#">Free trial</a></li>
+            </ul>
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item">
+          <div class="details">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">Patnerships</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item res-md">
+          <div class="details ">
+            <h3>Get in touch</h3>
+            <div class="form-icon">
+              <input type="text" class="form-control"  placeholder="Enter your mail" aria-label="Enter your mail" >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+           </div>
+        </div>
+      </div>
+     </div>
+  </div>
+  </div>
+</section>
+
+<!-- =====================
+    Footer part end
+=============================-->
+
+<!-- ======================
+     Copyright  part Start
+==============================-->
+
+<div id="copyright-part">
+  <div class="container">
+   <div class="text">
+    <h5>Copyright construction.com, All rights reserved.</h5>
+   </div>
+  </div>
+</div>
+
+<div class="top-button">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+<!-- ======================
+     Copyright  part End
+==============================-->
+
+<!----- js link start ----->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+<!----- css link start ----->
+</body>
+</html>

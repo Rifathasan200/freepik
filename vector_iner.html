@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vector Download</title>
+    <!----- fonts link start ----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <!----- fonts link end ----->
+
+    <!----- css link start ----->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!----- css link start ----->
+</head>
+<body>
+
+<!-- =====================
+       Nav part start
+=============================-->
+
+<nav class="navbar navbar-expand-lg navbar-light menu ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/footer-logo-img.png" alt="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vectors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Figma</a>
+          </li>
+          <li class="nav-item sub-nav-item">
+            <a class="nav-link" href="#">Tools</a>
+            <div class="sub-nav-link">New</div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Collections</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sell your content</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html" target="_blank">Log in</a>
+                  </li>
+            </ul>
+          <div class="nav-button">
+            <a class="button" href="signup.html" target="_blank"> Sign up</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- =====================
+       Nav part end
+=============================-->
+
+<!-- =====================
+     Search part start
+=============================-->
+
+<section id="vector-heading">
+    <div class="container">
+        <div class="search-box">
+            <div class="main">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Images
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">Images</label>
+                  </a>
+                </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1"> Collections </label>
+                  </a>
+                </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate">Free</label>
+                   </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item premium" href="#">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate">
+                      <i class="fa-solid fa-crown"></i> Premium</label> 
+                    </a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate">Vectors </label>
+                      </a>
+                    </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate"> Photos </label>                 
+                      </a>
+                    </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate">Figma </label>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate">Tools </label>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search all images">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!-- =====================
+     Search part end
+=============================-->
+
+<!-- =====================
+     Download part start
+=============================-->
+
+<section id="download-part">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="img-part">
+                    <div class="img">
+                        <img src="images/vector-img-2.jpg" alt="vector-img-2">
+                    </div>
+                    <div class="social-part">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="left">
+                                        <a class="logo" href="#">
+                                            <img src="images/download-logo.jpg" alt="download-logo">
+                                            <div class="sub-text">
+                                                <h6>Holmberg</h6> 
+                                            <span>1m images</span>
+                                            </div>
+                                        </a>
+                                        <a class="social-button" href="#">Follow</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right">
+                                    <a class="social-button" href="#"><i class="fa-solid fa-folder-plus"></i> Collect</a>
+                                    <a class="social-button" href="#"><i class="fa-solid fa-thumbs-up"></i> Like</a>
+                                    <a class="social-button" href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag-part">
+                        <h4>Halftone background with circles</h4>
+                        <h6>Related tags</h6>
+                        <a class="tag-button" href="#"><i class="fa-solid fa-magnifying-glass"></i> polygon shape</a>
+                        <a class="tag-button" href="#"><i class="fa-solid fa-magnifying-glass"></i> abstract polygon</a>
+                        <a class="tag-button" href="#"><i class="fa-solid fa-magnifying-glass"></i> polygon</a>
+                        <a class="tag-button" href="#"><i class="fa-solid fa-magnifying-glass"></i> polygon background</a>
+                        <a class="tag-button" href="#"><i class="fa-solid fa-magnifying-glass"></i> geometric circle</a>
+                        <a class="tag-button" href="#"><i class="fa-solid fa-magnifying-glass"></i> geometric background</a>
+                        <a class="social-button" href="#"> 29+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="download-box">
+                    <div class="adds-box">
+                        <h6>Use Google adds</h6>
+                    </div>
+                    <div class="download-button">
+                        <a class="button" href="#"><i class="fa-solid fa-download"></i> Download</a>
+                    </div>
+                    <div class="details">
+                        <a href="#"><span>How to edit ?</span></a>
+                        <h6>Free  License <a href="#">More info</a></h6>
+                        <p>Crediting the author and the source is required.</p>
+                        <a href="#"><span>How to attribute?</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="images-part">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-icon-img.jpg" alt="vector-icon-img">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-2.jpg" alt="vector-img-2">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-3.jpg" alt="vector-img-3">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-2.jpg" alt="vector-img-2">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="sponsored-part">
+            <div class="sponsored-slider">
+              <div class="item">
+                <a href="#">
+                <div class="img">
+                  <img src="images/sponsored-img-1.jpg" alt="sponsored-img-1">
+                  <div class="overlay">
+                    <h6>Show more</h6>
+                  </div>
+                </div>
+              </a>
+                <h3>Sponsored results by</h3>
+              </div>
+              <div class="item">
+                <a href="#">
+                <div class="img">
+                  <img src="images/sponsored-img-3.jpg" alt="sponsored-img-3">
+                  <div class="overlay">
+                    <h6>Show more</h6>
+                  </div>
+                </div>
+              </a>
+                <h3>Sponsored results by</h3>
+              </div>
+              <div class="item">
+                <a href="#">
+                <div class="img">
+                  <img src="images/sponsored-img-2.jpg" alt="sponsored-img-2">
+                  <div class="overlay">
+                    <h6>Show more</h6>
+                  </div>
+                </div>
+              </a>
+                <h3>Sponsored results by</h3>
+              </div>
+              
+                <div class="item">
+                  <a href="#">
+                  <div class="img">
+                    <img src="images/sponsored-img-4.jpg" alt="sponsored-img-4">
+                    <div class="overlay">
+                      <h6>Show more</h6>
+                    </div>
+                  </div>
+                </a>
+                  <h3>Sponsored results by</h3>
+                </div>
+              
+            </div>
+        </div>
+        <div class="images-part">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-icon-img.jpg" alt="vector-icon-img">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-2.jpg" alt="vector-img-2">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-4.jpg" alt="vector-img-4">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-6.jpg" alt="vector-img-6">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="images-part">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-4.jpg" alt="vector-img-4">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-3.jpg" alt="vector-img-3">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-icon-img.jpg" alt="vector-icon-img">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-2.jpg" alt="vector-img-2">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="images-part">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-icon-img.jpg" alt="vector-icon-img">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-2.jpg" alt="vector-img-2">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-4.jpg" alt="vector-img-4">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="img">
+                  <a href="#">
+                    <img src="images/vector-img-6.jpg" alt="vector-img-6">
+                    <div class="overlay">
+                      <p>Social media logos and icons set</p>
+                      <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="see-more-button">
+            <a class="button" href="#"> See More </a>
+          </div>
+    </div>
+</section>
+
+<!-- =====================
+     Download part end
+=============================-->
+
+<!-- =====================
+    Footer part start
+=============================-->
+
+<section id="footer-part">
+  <div class="container">
+  <div class="line">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item">
+          <h1>CONSTRUCTION</h1>
+          <p>You’ll find your next Home loan valu you prefer.</p>
+          <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item">
+           <div class="details">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#">Our Agents</a></li>
+              <li><a href="#">Member Stories</a></li>
+              <li><a href="#">Video</a></li>
+              <li><a href="#">Free trial</a></li>
+            </ul>
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item">
+          <div class="details">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">Patnerships</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-4">
+        <div class="item res-md">
+          <div class="details ">
+            <h3>Get in touch</h3>
+            <div class="form-icon">
+              <input type="text" class="form-control"  placeholder="Enter your mail" aria-label="Enter your mail" >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+           </div>
+        </div>
+      </div>
+     </div>
+  </div>
+  </div>
+</section>
+
+<!-- =====================
+    Footer part end
+=============================-->
+
+<!-- ======================
+     Copyright  part Start
+==============================-->
+
+<div id="copyright-part">
+  <div class="container">
+   <div class="text">
+    <h5>Copyright construction.com, All rights reserved.</h5>
+   </div>
+  </div>
+</div>
+
+<div class="top-button">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+<!-- ======================
+     Copyright  part End
+==============================-->
+
+<!----- js link start ----->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+<!----- css link start ----->    
+</body>
+</html>

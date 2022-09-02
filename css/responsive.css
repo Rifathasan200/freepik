@@ -1,0 +1,2508 @@
+@media (min-width:320px) and (max-width:399px){
+	.title {
+		text-align: center;
+		margin-bottom: 30px;
+   }
+	.title h1 {
+		font-size: 26px;
+		line-height: 33px;
+   }
+	.title p {
+		font-size: 16px;
+		line-height: 25px;
+   }
+   /* --------------------- Nav part start ---------------------------*/
+	nav .navbar-brand img {
+		width: 80%;
+   }
+	.navbar-light .navbar-toggler {
+		color: #fff;
+		border-color:transparent;
+   }
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0;
+   }
+	nav .nav-item {
+		margin-right: 0px;
+		text-align: center;
+   }
+	nav .navbar-nav .sub-nav-item {
+		justify-content: center;
+   }
+	nav .nav-item .nav-link {
+		padding: 6px 0 !important;
+   }
+	.d-flex {
+		display: block !important;
+   }
+	nav .nav-button {
+		text-align: center;
+   }
+   /* --------------------- Nav part end ---------------------------*/
+   /* --------------------- Banner part start ---------------------------*/
+	#banner-part {
+		padding-top: 80px;
+		padding-bottom: 40px;
+   }
+	#banner-part .title h1 {
+		font-size: 28px;
+		line-height: 40px;
+   }
+	#banner-part .title p {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 15px;
+   }
+	#banner-part .search-box {
+		width: 100%;
+		height: 40px;
+		margin-top: 40px !important;
+   }
+	#banner-part .search-box .btn-secondary {
+		font-size: 14px;
+		margin-top: -4px;
+   }
+	#banner-part .search-box .btn-secondary::after {
+		margin-left: 25px;
+   }
+	#banner-part .search-box .form-control {
+		margin-top: -4px;
+		margin-left: 20px;
+		font-size: 14px;
+   }
+	#banner-part .search-box .search-icon {
+		margin-top: 6px;
+   }
+	#banner-part .search-box i {
+		font-size: 15px;
+		margin-top: 7px;
+		margin-right: 12px;
+   }
+	#banner-part .button-part .main {
+		justify-content: left;
+   }
+	#banner-part .button-part .button {
+		padding: 7px 9px;
+		margin-left: 12px;
+		font-size: 12px;
+   }
+	#banner-part .images-part {
+		margin-top: 40px;
+   }
+	#banner-part .images-part .sub-col {
+		flex: 0 0 0%;
+		padding: 0 20px;
+   }
+	#banner-part .images-part .img-round{
+		margin-top: 17px;
+   }
+	#banner-part .images-part .img-round h5 {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 10px;
+   }
+   /* --------------------- Banner part end ---------------------------*/
+   /* --------------------- Sub-Banner part start ---------------------------*/
+	#sub-banner {
+		padding: 20px 0;
+		margin-bottom: 50px;
+   }
+	#sub-banner .main .text p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width: 240px;
+   }
+	#sub-banner .button {
+		padding: 10px 15px;
+		margin-left: 15px;
+		font-size: 12px;
+   }
+   /* --------------------- Sub-Banner part end ---------------------------*/
+   /* --------------------- categories part start ---------------------------*/
+	#categories-part {
+		margin-bottom: 50px;
+   }
+	#categories-part .top .img {
+		margin-top: 20px;
+   }
+	#categories-part .top .img img {
+		height: 230px;
+   }
+   /* --------------------- categories part end ---------------------------*/
+   /* --------------------- creator part start ---------------------------*/
+	#creator-part {
+		margin-bottom: 70px;
+   }
+	#creator-part .prev {
+		bottom: -30px;
+		left: 44%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+	#creator-part .next {
+		bottom: -30px;
+		left: 54%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+   /* --------------------- creator part end ---------------------------*/
+   /* --------------------- creative part end ---------------------------*/
+	#creative-part {
+		margin-bottom: 50px;
+   }
+	#creative-part .img-part {
+		margin-top: 0px;
+   }
+	#creative-part .img-part .left-img{
+		margin-right: 10px;
+   }
+	#creative-part .img-part .left-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .img-part .right-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .details .item {
+		padding: 15px 30px 22px 25px;
+		margin-top: 0px;
+   }
+	#creative-part .details .item .number h6 {
+		width: 40px;
+		height: 40px;
+		font-size: 17px;
+		line-height: 40px;
+   }
+	#creative-part .details .item .text p {
+		font-size: 16px;
+		line-height: 24px;
+		width: auto;
+   }
+   /* --------------------- creative part end ---------------------------*/
+   /* --------------------- edit part end ---------------------------*/
+	#edit-part {
+		margin-bottom: 50px;
+   }
+	#edit-part .row{
+		flex-direction: column-reverse;
+   }
+	#edit-part .details {
+		margin-top: 0px;
+		text-align: center;
+   }
+	#edit-part .details .img img{
+		display: none;
+   }
+	#edit-part .details h4 {
+		font-size: 20px;
+		line-height: 30px;
+   }
+	#edit-part .details p {
+		font-size: 16px;
+		line-height: 26px;
+		width: auto;
+		margin-top: 15px;
+   }
+	#edit-part .details .button {
+		padding: 12px 20px;
+		font-size: 14px;
+		margin-top: 15px;
+   }
+	#edit-part .image {
+		margin-top: 0px;
+		margin-bottom: 10px;
+   }
+	#edit-part .image img{
+		width: 100%;
+   }
+   /* --------------------- edit part end ---------------------------*/
+   /* --------------------- community part end ---------------------------*/
+	#community-part .img img{
+		width: 100%;
+   }
+	#community-part .details {
+		margin-top: 60px;
+   }
+	#community-part .details .title{
+		text-align: center;
+   }
+	#community-part .details .title p {
+		margin-top: 18px;
+   }
+	#community-part .details .community-button{
+		text-align: center;
+   }
+	#community-part .details .button {
+		padding: 10px 20px;
+		font-size: 14px;
+   }
+   /* --------------------- community part end ---------------------------*/
+   /* --------------------- footer part start ---------------------------*/
+	#footer-part {
+		padding: 20px;
+		padding-top: 40px;
+   }
+	#footer-part .line {
+		text-align: center;
+		padding: 40px 0px;
+   }
+	#footer-part .item h1 {
+		font-size: 22px;
+		margin-bottom: 10px;
+   }
+	#footer-part .item p {
+		line-height: 23px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 220px;
+   }
+	#footer-part .item .details h3 {
+		margin-bottom: 20px;
+		margin-left: 0px;
+		margin-top: 30px;
+   }
+	#footer-part .item .details ul {
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul li {
+		margin-bottom: 10px;
+   }
+	#footer-part .item .details .form-icon {
+		margin-left: 0px;
+		margin: 0 auto;
+   }
+	#footer-part .line::after {
+		bottom: -42px;
+   }
+	#copyright-part {
+		padding-bottom: 20px;
+   }
+	.top-button {
+		bottom: 85px;
+		right: 25px;
+		width: 30px;
+		height: 30px;
+		line-height: 32px;
+		font-size: 16px;
+   }
+   /* --------------------- footer part end ---------------------------*/
+   /* ============================= VECTORS.html CSS START ============================ */
+	#vector-heading .search-box {
+		width: auto;
+		height: 40px;
+		margin-top: 30px !important;
+		padding: 0;
+   }
+	#vector-heading .btn-secondary {
+		font-size: 14px;
+   }
+	#vector-heading .search-box .btn-secondary::after {
+		margin-left: 30px;
+   }
+	#vector-heading .search-box .form-control {
+		padding-left: 40px;
+   }
+	#vector-heading .search-box .btn-secondary::before {
+		right: -20px;
+   }
+	#vector-heading .search-box .search-icon {
+		margin-top: 11px;
+		font-size: 14px;
+   }
+	.slider-part {
+		width: 85%;
+   }
+	.slider-part .header-slider {
+		padding: 0 0px;
+   }
+	.slider-part .header-slider .item span {
+		font-size: 14px;
+		padding: 2px 15px;
+   }
+	.header-slider .item span i {
+		font-size: 14px;
+   }
+	.header-slider .prev {
+		bottom: -50px;
+		left: 38%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	.header-slider .next {
+		bottom: -50px;
+		left: 50%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	#show-sidebar {
+		width: 85px;
+		padding: 7px 8px;
+   }
+	#show-sidebar span {
+		font-size: 14px;
+   }
+	.sidebar-content {
+		width: 100%;
+		position: absolute !important;
+		top: -20px;
+		height: 350px;
+   }
+	.page-wrapper .page-content > div {
+		padding: 20px 10px;
+   }
+	.page-wrapper .page-content hr{
+		margin-top: 0px;
+   }
+	.page-wrapper .page-content h2 {
+		font-size: 26px;
+		line-height: 36px;
+		margin: 40px 0;
+   }
+	.images-part {
+		margin-bottom: 20px;
+   }
+	.images-part .img {
+		height: 160px;
+		width: 67%;
+		margin: 0 auto;
+		margin-top: 15px;
+   }
+	.images-part .img .overlay .icon {
+		margin-top: 100px;
+   }
+	.images-part .img .overlay .icon i {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+   }
+	.page-wrapper .page-content .vector-button .button {
+		font-size: 14px;
+		padding: 10px 20px;
+   }
+	.sponsored-part {
+		margin-bottom: 10px;
+   }
+   /* ========================== VECTORS.html CSS end ====================== */
+   /* ========================== VECTORS_iner.html CSS end ======================= */
+	#download-part {
+		margin-bottom: 50px;
+   }
+	#download-part .img-part .social-part .left {
+		justify-content: center;
+   }
+	#download-part .img-part .social-part .left .logo {
+		margin-left: -22px;
+   }
+	#download-part .img-part .social-button {
+		height: 32px;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 5px 18px;
+		margin-top: 5px;
+   }
+	#download-part .img-part .social-part .right{
+		margin-top: 15px;
+   }
+	#download-part .img-part .tag-part .tag-button {
+		line-height: 18px;
+   }
+	#download-part .download-box .adds-box {
+		height: 150px;
+   }
+	#download-part .download-box .download-button .button {
+		font-size: 14px;
+		padding: 12px 40px;
+   }
+	#download-part .download-box .details {
+		margin-top: 30px;
+		text-align: center;
+		margin-bottom: 15px;
+   }
+   /* ================================ VECTORS_iner.html CSS end ==================== */
+   /* ===================== Signup.html CSS start ======================== */
+	#sign-part .sign-card {
+		padding-bottom: 20px;
+		width: auto;
+   }
+	.nav-tabs .nav-link {
+		font-size: 25px;
+		padding: 14px 38px;
+   }
+   /* ========================== Signup.html CSS end ======================== */
+   /* ====================================== */
+}
+@media (min-width:400px) and (max-width:490px){
+	.title {
+		text-align: center;
+		margin-bottom: 30px;
+   }
+	.title h1 {
+		font-size: 26px;
+		line-height: 33px;
+   }
+	.title p {
+		font-size: 16px;
+		line-height: 25px;
+   }
+   /* --------------------- Nav part start ---------------------------*/
+	nav .navbar-brand img {
+		width: 80%;
+   }
+	.navbar-light .navbar-toggler {
+		color: #fff;
+		border-color:transparent;
+   }
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0;
+   }
+	nav .nav-item {
+		margin-right: 0px;
+		text-align: center;
+   }
+	nav .navbar-nav .sub-nav-item {
+		justify-content: center;
+   }
+	nav .nav-item .nav-link {
+		padding: 6px 0 !important;
+   }
+	.d-flex {
+		display: block !important;
+   }
+	nav .nav-button {
+		text-align: center;
+   }
+   /* --------------------- Nav part end ---------------------------*/
+   /* --------------------- Banner part start ---------------------------*/
+	#banner-part {
+		padding-top: 80px;
+		padding-bottom: 40px;
+   }
+	#banner-part .title h1 {
+		font-size: 28px;
+		line-height: 40px;
+   }
+	#banner-part .title p {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 15px;
+   }
+	#banner-part .search-box {
+		width: 100%;
+		height: 40px;
+		margin-top: 40px !important;
+   }
+	#banner-part .search-box .btn-secondary {
+		font-size: 14px;
+		margin-top: -4px;
+   }
+	#banner-part .search-box .btn-secondary::after {
+		margin-left: 25px;
+   }
+	#banner-part .search-box .form-control {
+		margin-top: -4px;
+		margin-left: 20px;
+		font-size: 14px;
+   }
+	#banner-part .search-box .search-icon {
+		margin-top: 6px;
+   }
+	#banner-part .search-box i {
+		font-size: 15px;
+		margin-top: 7px;
+		margin-right: 12px;
+   }
+	#banner-part .button-part .main {
+		justify-content: center;
+   }
+	#banner-part .button-part .button {
+		padding: 7px 9px;
+		margin-left: 12px;
+		font-size: 12px;
+   }
+	#banner-part .images-part {
+		margin-top: 40px;
+   }
+	#banner-part .images-part .sub-col {
+		flex: 0 0 0%;
+		padding: 0 20px;
+   }
+	#banner-part .images-part .img-round{
+		margin-top: 17px;
+   }
+	#banner-part .images-part .img-round h5 {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 10px;
+   }
+   /* --------------------- Banner part end ---------------------------*/
+   /* --------------------- Sub-Banner part start ---------------------------*/
+	#sub-banner {
+		padding: 20px 0;
+		margin-bottom: 50px;
+   }
+	#sub-banner .main .text p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width: 240px;
+   }
+	#sub-banner .button {
+		padding: 10px 15px;
+		margin-left: 15px;
+		font-size: 12px;
+   }
+   /* --------------------- Sub-Banner part end ---------------------------*/
+   /* --------------------- categories part start ---------------------------*/
+	#categories-part {
+		margin-bottom: 50px;
+   }
+	#categories-part .top .img {
+		margin-top: 20px;
+   }
+	#categories-part .top .img img {
+		height: 230px;
+   }
+   /* --------------------- categories part end ---------------------------*/
+   /* --------------------- creator part start ---------------------------*/
+	#creator-part {
+		margin-bottom: 70px;
+   }
+	#creator-part .prev {
+		bottom: -30px;
+		left: 44%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+	#creator-part .next {
+		bottom: -30px;
+		left: 54%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+   /* --------------------- creator part end ---------------------------*/
+   /* --------------------- creative part end ---------------------------*/
+	#creative-part {
+		margin-bottom: 50px;
+   }
+	#creative-part .img-part {
+		margin-top: 0px;
+   }
+	#creative-part .img-part .left-img{
+		margin-right: 10px;
+   }
+	#creative-part .img-part .left-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .img-part .right-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .details .item {
+		padding: 15px 30px 22px 25px;
+		margin-top: 0px;
+   }
+	#creative-part .details .item .number h6 {
+		width: 40px;
+		height: 40px;
+		font-size: 17px;
+		line-height: 40px;
+   }
+	#creative-part .details .item .text p {
+		font-size: 16px;
+		line-height: 24px;
+		width: auto;
+   }
+   /* --------------------- creative part end ---------------------------*/
+   /* --------------------- edit part end ---------------------------*/
+	#edit-part {
+		margin-bottom: 50px;
+   }
+	#edit-part .row{
+		flex-direction: column-reverse;
+   }
+	#edit-part .details {
+		margin-top: 0px;
+		text-align: center;
+   }
+	#edit-part .details .img img{
+		display: none;
+   }
+	#edit-part .details h4 {
+		font-size: 20px;
+		line-height: 30px;
+   }
+	#edit-part .details p {
+		font-size: 16px;
+		line-height: 26px;
+		width: auto;
+		margin-top: 15px;
+   }
+	#edit-part .details .button {
+		padding: 12px 20px;
+		font-size: 14px;
+		margin-top: 15px;
+   }
+	#edit-part .image {
+		margin-top: 0px;
+		margin-bottom: 10px;
+   }
+	#edit-part .image img{
+		width: 100%;
+   }
+   /* --------------------- edit part end ---------------------------*/
+   /* --------------------- community part end ---------------------------*/
+	#community-part .img img{
+		width: 100%;
+   }
+	#community-part .details {
+		margin-top: 60px;
+   }
+	#community-part .details .title{
+		text-align: center;
+   }
+	#community-part .details .title p {
+		margin-top: 18px;
+   }
+	#community-part .details .community-button{
+		text-align: center;
+   }
+	#community-part .details .button {
+		padding: 10px 20px;
+		font-size: 14px;
+   }
+   /* --------------------- community part end ---------------------------*/
+   /* --------------------- footer part start ---------------------------*/
+	#footer-part {
+		padding: 20px;
+		padding-top: 40px;
+   }
+	#footer-part .line {
+		text-align: center;
+		padding: 40px 0px;
+   }
+	#footer-part .item h1 {
+		font-size: 22px;
+		margin-bottom: 10px;
+   }
+	#footer-part .item p {
+		line-height: 23px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 220px;
+   }
+	#footer-part .item .details h3 {
+		margin-bottom: 20px;
+		margin-left: 0px;
+		margin-top: 30px;
+   }
+	#footer-part .item .details ul {
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul li {
+		margin-bottom: 10px;
+   }
+	#footer-part .item .details .form-icon {
+		margin-left: 0px;
+		margin: 0 auto;
+   }
+	#footer-part .line::after {
+		bottom: -42px;
+   }
+	#copyright-part {
+		padding-bottom: 20px;
+   }
+	.top-button {
+		bottom: 85px;
+		right: 25px;
+		width: 30px;
+		height: 30px;
+		line-height: 32px;
+		font-size: 16px;
+   }
+   /* --------------------- footer part end ---------------------------*/
+   /* ========================= VECTORS.html CSS START ===================== */
+	#vector-heading .search-box {
+		width: auto;
+		height: 40px;
+		margin-top: 30px !important;
+		padding: 0;
+   }
+	#vector-heading .btn-secondary {
+		font-size: 14px;
+   }
+	#vector-heading .search-box .btn-secondary::after {
+		margin-left: 30px;
+   }
+	#vector-heading .search-box .form-control {
+		padding-left: 40px;
+   }
+	#vector-heading .search-box .btn-secondary::before {
+		right: -20px;
+   }
+	#vector-heading .search-box .search-icon {
+		margin-top: 11px;
+		font-size: 14px;
+   }
+	.slider-part {
+		width: 85%;
+   }
+	.slider-part .header-slider {
+		padding: 0 0px;
+   }
+	.slider-part .header-slider .item span {
+		font-size: 14px;
+		padding: 2px 15px;
+   }
+	.header-slider .item span i {
+		font-size: 14px;
+   }
+	.header-slider .prev {
+		bottom: -50px;
+		left: 38%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	.header-slider .next {
+		bottom: -50px;
+		left: 50%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	#show-sidebar {
+		width: 85px;
+		padding: 7px 8px;
+   }
+	#show-sidebar span {
+		font-size: 14px;
+   }
+	.sidebar-content {
+		width: 100%;
+		position: absolute !important;
+		top: -20px;
+		height: 350px;
+   }
+	.page-wrapper .page-content > div {
+		padding: 20px 10px;
+   }
+	.page-wrapper .page-content hr{
+		margin-top: 0px;
+   }
+	.page-wrapper .page-content h2 {
+		font-size: 26px;
+		line-height: 36px;
+		margin: 40px 0;
+   }
+	.images-part {
+		margin-bottom: 20px;
+   }
+	.images-part .img {
+		height: 160px;
+		width: 67%;
+		margin: 0 auto;
+		margin-top: 15px;
+   }
+	.images-part .img .overlay .icon {
+		margin-top: 100px;
+   }
+	.images-part .img .overlay .icon i {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+   }
+	.page-wrapper .page-content .vector-button .button {
+		font-size: 14px;
+		padding: 10px 20px;
+   }
+	.sponsored-part {
+		margin-bottom: 10px;
+   }
+   /* ============================ VECTORS.html CSS end ==================== */
+   /* ================================ VECTORS_iner.html CSS end =============== */
+	#download-part {
+		margin-bottom: 50px;
+   }
+	#download-part .img-part .social-part .left {
+		justify-content: center;
+   }
+	#download-part .img-part .social-part .left .logo {
+		margin-left: -22px;
+   }
+	#download-part .img-part .social-button {
+		height: 32px;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 5px 18px;
+		margin-top: 5px;
+   }
+	#download-part .img-part .social-part .right{
+		margin-top: 15px;
+   }
+	#download-part .img-part .tag-part .tag-button {
+		line-height: 18px;
+   }
+	#download-part .download-box .adds-box {
+		height: 150px;
+   }
+	#download-part .download-box .download-button .button {
+		font-size: 14px;
+		padding: 12px 40px;
+   }
+	#download-part .download-box .details {
+		margin-top: 30px;
+		text-align: center;
+		margin-bottom: 15px;
+   }
+   /* ================================= VECTORS_iner.html CSS end ===================== */
+   /* =================================== Signup.html CSS start ========================= */
+	#sign-part .sign-card {
+		padding-bottom: 20px;
+		width: auto;
+   }
+	.nav-tabs .nav-link {
+		font-size: 25px;
+		padding: 14px 38px;
+   }
+   /* ================================= Signup.html CSS end ============================ */
+   /* ====================================== */
+}
+@media (min-width:491px) and (max-width:575px){
+	.title {
+		text-align: center;
+		margin-bottom: 30px;
+   }
+	.title h1 {
+		font-size: 26px;
+		line-height: 33px;
+   }
+	.title p {
+		font-size: 16px;
+		line-height: 25px;
+   }
+   /* --------------------- Nav part start ---------------------------*/
+	nav .navbar-brand img {
+		width: 80%;
+   }
+	.navbar-light .navbar-toggler {
+		color: #fff;
+		border-color:transparent;
+   }
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0;
+   }
+	nav .nav-item {
+		margin-right: 0px;
+		text-align: center;
+   }
+	nav .navbar-nav .sub-nav-item {
+		justify-content: center;
+   }
+	nav .nav-item .nav-link {
+		padding: 6px 0 !important;
+   }
+	.d-flex {
+		display: block !important;
+   }
+	nav .nav-button {
+		text-align: center;
+   }
+   /* --------------------- Nav part end ---------------------------*/
+   /* --------------------- Banner part start ---------------------------*/
+	#banner-part {
+		padding-top: 80px;
+		padding-bottom: 40px;
+   }
+	#banner-part .title h1 {
+		font-size: 28px;
+		line-height: 40px;
+   }
+	#banner-part .title p {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 15px;
+   }
+	#banner-part .search-box {
+		width: 100%;
+		height: 40px;
+		margin-top: 40px !important;
+   }
+	#banner-part .search-box .btn-secondary {
+		font-size: 14px;
+		margin-top: -4px;
+   }
+	#banner-part .search-box .btn-secondary::after {
+		margin-left: 25px;
+   }
+	#banner-part .search-box .form-control {
+		margin-top: -4px;
+		margin-left: 20px;
+		font-size: 14px;
+   }
+	#banner-part .search-box .search-icon {
+		margin-top: 6px;
+   }
+	#banner-part .search-box i {
+		font-size: 15px;
+		margin-top: 7px;
+		margin-right: 12px;
+   }
+	#banner-part .button-part .button {
+		padding: 7px 12px;
+		margin-left: 12px;
+		font-size: 13px;
+   }
+	#banner-part .images-part {
+		margin-top: 40px;
+   }
+	#banner-part .images-part .sub-col {
+		flex: 0 0 0%;
+		padding: 0 20px;
+   }
+	#banner-part .images-part .img-round{
+		margin-top: 17px;
+   }
+	#banner-part .images-part .img-round h5 {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 10px;
+   }
+   /* --------------------- Banner part end ---------------------------*/
+   /* --------------------- Sub-Banner part start ---------------------------*/
+	#sub-banner {
+		padding: 20px 0;
+		margin-bottom: 50px;
+   }
+	#sub-banner .main .text p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width: 240px;
+   }
+	#sub-banner .button {
+		padding: 10px 15px;
+		margin-left: 15px;
+		font-size: 12px;
+		margin-top: 5px;
+   }
+   /* --------------------- Sub-Banner part end ---------------------------*/
+   /* --------------------- categories part start ---------------------------*/
+	#categories-part {
+		margin-bottom: 50px;
+   }
+	#categories-part .top .img {
+		margin-top: 20px !important;
+		width: 80%;
+		margin: 0 auto;
+   }
+	#categories-part .top .img img {
+		height: 250px;
+   }
+	#categories-part .bottom .img {
+		margin-top: 20px !important;
+		width: 80%;
+		margin: 0 auto;
+   }
+   /* --------------------- categories part end ---------------------------*/
+   /* --------------------- creator part start ---------------------------*/
+	#creator-part {
+		margin-bottom: 70px;
+   }
+	#creator-part .prev {
+		bottom: -30px;
+		left: 44%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+	#creator-part .next {
+		bottom: -30px;
+		left: 54%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+   /* --------------------- creator part end ---------------------------*/
+   /* --------------------- creative part end ---------------------------*/
+	#creative-part {
+		margin-bottom: 50px;
+   }
+	#creative-part .img-part {
+		margin-top: 0px;
+   }
+	#creative-part .img-part .left-img{
+		margin-right: 10px;
+   }
+	#creative-part .img-part .left-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .img-part .right-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .details .item {
+		padding: 15px 30px 22px 25px;
+		margin-top: 0px;
+   }
+	#creative-part .details .item .number h6 {
+		width: 40px;
+		height: 40px;
+		font-size: 17px;
+		line-height: 40px;
+   }
+	#creative-part .details .item .text p {
+		font-size: 16px;
+		line-height: 24px;
+		width: auto;
+   }
+   /* --------------------- creative part end ---------------------------*/
+   /* --------------------- edit part end ---------------------------*/
+	#edit-part {
+		margin-bottom: 50px;
+   }
+	#edit-part .row{
+		flex-direction: column-reverse;
+   }
+	#edit-part .details {
+		margin-top: 30px;
+		text-align: center;
+   }
+	#edit-part .details .img img {
+		display: none;
+   }
+	#edit-part .details h4 {
+		font-size: 23px;
+		line-height: 33px;
+   }
+	#edit-part .details p {
+		font-size: 16px;
+		line-height: 26px;
+		width: auto;
+		margin-top: 15px;
+   }
+	#edit-part .details .button {
+		padding: 12px 20px;
+		font-size: 14px;
+		margin-top: 15px;
+   }
+	#edit-part .image {
+		margin-top: 0px;
+		margin-bottom: 10px;
+   }
+	#edit-part .image img{
+		width: 100%;
+   }
+   /* --------------------- edit part end ---------------------------*/
+   /* --------------------- community part end ---------------------------*/
+	#community-part .img img{
+		width: 100%;
+   }
+	#community-part .details {
+		margin-top: 60px;
+   }
+	#community-part .details .title{
+		text-align: center;
+   }
+	#community-part .details .title p {
+		margin-top: 18px;
+   }
+	#community-part .details .community-button{
+		text-align: center;
+   }
+	#community-part .details .button {
+		padding: 10px 20px;
+		font-size: 14px;
+   }
+   /* --------------------- community part end ---------------------------*/
+   /* --------------------- footer part start ---------------------------*/
+	#footer-part {
+		padding: 20px;
+		padding-top: 50px;
+   }
+	#footer-part .line {
+		text-align: center;
+		padding: 40px 0px;
+   }
+	#footer-part .item h1 {
+		font-size: 22px;
+		margin-bottom: 10px;
+   }
+	#footer-part .item p {
+		line-height: 23px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 220px;
+   }
+	#footer-part .item .details h3 {
+		margin-bottom: 20px;
+		margin-left: 0px;
+		margin-top: 30px;
+   }
+	#footer-part .item .details ul {
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul li {
+		margin-bottom: 10px;
+   }
+	#footer-part .item .details .form-icon {
+		margin-left: 0px;
+		margin: 0 auto;
+   }
+	#footer-part .line::after {
+		bottom: -42px;
+   }
+	#copyright-part {
+		padding-bottom: 20px;
+   }
+	.top-button {
+		bottom: 85px;
+		right: 25px;
+		width: 30px;
+		height: 30px;
+		line-height: 32px;
+		font-size: 16px;
+   }
+   /* --------------------- footer part end ---------------------------*/
+   /* ============================== VECTORS.html CSS START ==================== */
+	#vector-heading .search-box {
+		width: auto;
+		height: 40px;
+		margin-top: 30px !important;
+		padding: 0;
+   }
+	#vector-heading .btn-secondary {
+		font-size: 14px;
+   }
+	#vector-heading .search-box .btn-secondary::after {
+		margin-left: 30px;
+   }
+	#vector-heading .search-box .form-control {
+		padding-left: 40px;
+   }
+	#vector-heading .search-box .btn-secondary::before {
+		right: -20px;
+   }
+	#vector-heading .search-box .search-icon {
+		margin-top: 11px;
+		font-size: 14px;
+   }
+	.slider-part {
+		width: 85%;
+   }
+	.slider-part .header-slider {
+		padding: 0 0px;
+   }
+	.slider-part .header-slider .item span {
+		font-size: 14px;
+		padding: 2px 15px;
+   }
+	.header-slider .item span i {
+		font-size: 14px;
+   }
+	.header-slider .prev {
+		bottom: -50px;
+		left: 38%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	.header-slider .next {
+		bottom: -50px;
+		left: 50%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	#show-sidebar {
+		width: 85px;
+		padding: 7px 8px;
+   }
+	#show-sidebar span {
+		font-size: 14px;
+   }
+	.sidebar-content {
+		width: 100%;
+		position: absolute !important;
+		top: -20px;
+		height: 350px;
+   }
+	.page-wrapper .page-content > div {
+		padding: 20px 10px;
+   }
+	.page-wrapper .page-content hr{
+		margin-top: 0px;
+   }
+	.page-wrapper .page-content h2 {
+		font-size: 26px;
+		line-height: 36px;
+		margin: 40px 0;
+   }
+	.images-part {
+		margin-bottom: 20px;
+   }
+	.images-part .img {
+		height: 180px;
+		width: 65%;
+		margin: 0 auto;
+		margin-top: 15px;
+   }
+	.images-part .img .overlay .icon {
+		margin-top: 100px;
+   }
+	.images-part .img .overlay .icon i {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+   }
+	.page-wrapper .page-content .vector-button .button {
+		font-size: 14px;
+		padding: 10px 20px;
+   }
+	.sponsored-part {
+		margin-bottom: 10px;
+   }
+   /* =========================== VECTORS.html CSS end ==================== */
+   /* =============================== VECTORS_iner.html CSS end ======================= */
+	#download-part {
+		margin-bottom: 50px;
+   }
+	#download-part .img-part .social-part .left {
+		justify-content: center;
+   }
+	#download-part .img-part .social-part .left .logo {
+		margin-left: -22px;
+   }
+	#download-part .img-part .social-button {
+		height: 32px;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 5px 18px;
+		margin-top: 5px;
+   }
+	#download-part .img-part .social-part .right{
+		margin-top: 15px;
+   }
+	#download-part .img-part .tag-part .tag-button {
+		line-height: 18px;
+   }
+	#download-part .download-box .adds-box {
+		height: 150px;
+   }
+	#download-part .download-box .download-button .button {
+		font-size: 14px;
+		padding: 12px 40px;
+   }
+	#download-part .download-box .details {
+		margin-top: 30px;
+		text-align: center;
+		margin-bottom: 15px;
+   }
+   /* =================================== VECTORS_iner.html CSS end ========================= */
+   /* ============================= Signup.html CSS start ================= */
+	#sign-part .sign-card {
+		padding-bottom: 20px;
+		width: auto;
+   }
+	header .nav ul li {
+		margin-top: 15px;
+   }
+	.nav-tabs .nav-link {
+		margin-left: 28px;
+   }
+   /* =================================== Signup.html CSS end =================== */
+   /* ====================================== */
+}
+@media (min-width:576px) and (max-width:767px){
+	.title {
+		text-align: center;
+		margin-bottom: 30px;
+   }
+	.title h1 {
+		font-size: 26px;
+		line-height: 33px;
+   }
+	.title p {
+		font-size: 16px;
+		line-height: 25px;
+   }
+   /* --------------------- Nav part start ---------------------------*/
+	nav .navbar-brand img {
+		width: 85%;
+   }
+	.navbar-light .navbar-toggler {
+		color: #fff;
+		border-color:transparent;
+   }
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0;
+   }
+	nav .nav-item {
+		margin-right: 0px;
+		text-align: center;
+   }
+	nav .navbar-nav .sub-nav-item {
+		justify-content: center;
+   }
+	nav .nav-item .nav-link {
+		padding: 6px 0 !important;
+   }
+	.d-flex {
+		display: block !important;
+   }
+	nav .nav-button {
+		text-align: center;
+   }
+	nav button i{
+		font-size: 22px;
+   }
+   /* --------------------- Nav part end ---------------------------*/
+   /* --------------------- Banner part start ---------------------------*/
+	#banner-part {
+		padding-top: 80px;
+		padding-bottom: 40px;
+   }
+	#banner-part .title h1 {
+		font-size: 30px;
+		line-height: 42px;
+   }
+	#banner-part .title p {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 15px;
+   }
+	#banner-part .search-box {
+		width: 100%;
+		height: 40px;
+		margin-top: 40px !important;
+   }
+	#banner-part .search-box .btn-secondary {
+		font-size: 14px;
+		margin-top: -4px;
+   }
+	#banner-part .search-box .btn-secondary::after {
+		margin-left: 25px;
+   }
+	#banner-part .search-box .form-control {
+		margin-top: -4px;
+		margin-left: 20px;
+		font-size: 14px;
+   }
+	#banner-part .search-box .search-icon {
+		margin-top: 6px;
+   }
+	#banner-part .search-box i {
+		font-size: 15px;
+		margin-top: 7px;
+		margin-right: 12px;
+   }
+	#banner-part .button-part .button {
+		padding: 7px 12px;
+		margin-left: 12px;
+		font-size: 13px;
+   }
+	#banner-part .images-part {
+		margin-top: 40px;
+   }
+	#banner-part .images-part .sub-col {
+		flex: 0 0 0%;
+		padding: 0 20px;
+   }
+	#banner-part .images-part .img-round{
+		margin-top: 17px;
+   }
+	#banner-part .images-part .img-round h5 {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 10px;
+   }
+   /* --------------------- Banner part end ---------------------------*/
+   /* --------------------- Sub-Banner part start ---------------------------*/
+	#sub-banner {
+		margin-bottom: 60px;
+   }
+	#sub-banner .main .text p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width: 240px;
+   }
+	#sub-banner .button {
+		padding: 10px 15px;
+		margin-left: 15px;
+		font-size: 12px;
+		margin-top: 5px;
+   }
+   /* --------------------- Sub-Banner part end ---------------------------*/
+   /* --------------------- categories part start ---------------------------*/
+	#categories-part {
+		margin-bottom: 50px;
+   }
+	#categories-part .top .img {
+		margin-top: 20px ;
+   }
+	#categories-part .bottom .img {
+		margin-top: 20px;
+   }
+   /* --------------------- categories part end ---------------------------*/
+   /* --------------------- creator part start ---------------------------*/
+	#creator-part {
+		margin-bottom: 70px;
+   }
+	#creator-part .prev {
+		bottom: -30px;
+		left: 44%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+	#creator-part .next {
+		bottom: -30px;
+		left: 54%;
+		width: 25px;
+		height: 25px;
+		line-height: 24px;
+   }
+   /* --------------------- creator part end ---------------------------*/
+   /* --------------------- creative part end ---------------------------*/
+	#creative-part {
+		margin-bottom: 50px;
+   }
+	#creative-part .img-part {
+		margin-top: 0px;
+   }
+	#creative-part .img-part .left-img{
+		margin-right: 10px;
+   }
+	#creative-part .img-part .left-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .img-part .right-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .details .item {
+		padding: 15px 30px 22px 25px;
+		margin-top: 0px;
+   }
+	#creative-part .details .item .text p {
+		font-size: 16px;
+		line-height: 24px;
+		width: auto;
+   }
+   /* --------------------- creative part end ---------------------------*/
+   /* --------------------- edit part end ---------------------------*/
+	#edit-part {
+		margin-bottom: 50px;
+   }
+	#edit-part .row {
+		flex-direction: column-reverse;
+   }
+	#edit-part .details {
+		margin-top: 30px;
+		text-align: center;
+   }
+	#edit-part .details .img img{
+		display: none;
+   }
+	#edit-part .details h4 {
+		font-size: 26px;
+		line-height: 30px;
+   }
+	#edit-part .details p {
+		font-size: 17px;
+		line-height: 27px;
+		width: auto;
+		margin-top: 15px;
+   }
+	#edit-part .details .button {
+		padding: 12px 20px;
+		font-size: 15px;
+		margin-top: 15px;
+		margin-left: 0px;
+   }
+	#edit-part .image {
+		margin-top: 0px;
+		margin-bottom: 10px;
+   }
+	#edit-part .image img{
+		width: 100%;
+   }
+   /* --------------------- edit part end ---------------------------*/
+   /* --------------------- community part end ---------------------------*/
+	#community-part .img img{
+		width: 100%;
+   }
+	#community-part .details {
+		margin-top: 60px;
+   }
+	#community-part .details .title{
+		text-align: center;
+   }
+	#community-part .details .title p {
+		margin-top: 18px;
+   }
+	#community-part .details .community-button{
+		text-align: center;
+   }
+	#community-part .details .button {
+		padding: 10px 20px;
+		font-size: 15px;
+   }
+   /* --------------------- community part end ---------------------------*/
+   /* --------------------- footer part start ---------------------------*/
+	#footer-part {
+		padding: 20px;
+		padding-top: 50px;
+   }
+	#footer-part .line {
+		text-align: center;
+		padding: 40px 0px;
+   }
+   /* #footer-part .line .item{
+		margin-top: 40px;
+   }
+	*/
+	#footer-part .item h1 {
+		font-size: 22px;
+		margin-bottom: 10px;
+   }
+	#footer-part .item p {
+		line-height: 23px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 220px;
+   }
+	#footer-part .item .details h3 {
+		margin-bottom: 20px;
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul {
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul li {
+		margin-bottom: 8px;
+   }
+	#footer-part .item .details .form-icon {
+		margin-left: 0px;
+		margin: 0 auto;
+   }
+	#footer-part .line::after {
+		bottom: -42px;
+   }
+	#copyright-part {
+		padding-bottom: 20px;
+   }
+	.top-button {
+		bottom: 85px;
+		right: 25px;
+		width: 30px;
+		height: 30px;
+		line-height: 32px;
+		font-size: 16px;
+   }
+   /* --------------------- footer part end ---------------------------*/
+   /* ================================== VECTORS.html CSS START ======================= */
+	#vector-heading .search-box {
+		width: auto;
+		height: 40px;
+		margin-top: 30px !important;
+		padding: 0;
+   }
+	#vector-heading .btn-secondary {
+		font-size: 14px;
+   }
+	#vector-heading .search-box .btn-secondary::after {
+		margin-left: 30px;
+   }
+	#vector-heading .search-box .form-control {
+		padding-left: 40px;
+   }
+	#vector-heading .search-box .btn-secondary::before {
+		right: -20px;
+   }
+	#vector-heading .search-box .search-icon {
+		margin-top: 11px;
+		font-size: 14px;
+   }
+	.slider-part {
+		width: 85%;
+   }
+	.slider-part .header-slider {
+		padding: 0 0px;
+   }
+	.slider-part .header-slider .item span {
+		font-size: 14px;
+		padding: 2px 15px;
+   }
+	.header-slider .item span i {
+		font-size: 14px;
+   }
+	.header-slider .prev {
+		bottom: -50px;
+		left: 38%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	.header-slider .next {
+		bottom: -50px;
+		left: 50%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	#show-sidebar {
+		width: 85px;
+		padding: 7px 8px;
+   }
+	#show-sidebar span {
+		font-size: 14px;
+   }
+	.sidebar-content {
+		width: 100%;
+		position: absolute !important;
+		top: -20px;
+		height: 350px;
+   }
+	.page-wrapper .page-content > div {
+		padding: 20px 10px;
+   }
+	.page-wrapper .page-content hr{
+		margin-top: 0px;
+   }
+	.page-wrapper .page-content h2 {
+		font-size: 26px;
+		line-height: 36px;
+		margin: 40px 0;
+   }
+	.images-part {
+		margin-bottom: 20px;
+   }
+	.images-part .res-sm{
+		margin: 0 auto;
+   }
+	.images-part .img {
+		height: 180px;
+		margin-top: 15px;
+   }
+	.images-part .img .overlay .icon {
+		margin-top: 100px;
+   }
+	.images-part .img .overlay .icon i {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+   }
+	.page-wrapper .page-content .vector-button .button {
+		font-size: 14px;
+		padding: 10px 20px;
+   }
+	.sponsored-part {
+		margin-bottom: 10px;
+   }
+   /* ==================================== VECTORS.html CSS end =========================== */
+   /* ================================== VECTORS_iner.html CSS end ===================== */
+	#download-part {
+		margin-bottom: 50px;
+   }
+	#download-part .img-part .social-part .left {
+		justify-content: center;
+   }
+	#download-part .img-part .social-part .left .logo {
+		margin-left: -22px;
+   }
+	#download-part .img-part .social-button {
+		height: 32px;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 5px 18px;
+		margin-top: 5px;
+   }
+	#download-part .img-part .social-part .right{
+		margin-top: 15px;
+   }
+	#download-part .img-part .tag-part .tag-button {
+		line-height: 18px;
+   }
+	#download-part .download-box .adds-box {
+		height: 150px;
+   }
+	#download-part .download-box .download-button .button {
+		font-size: 14px;
+		padding: 12px 40px;
+   }
+	#download-part .download-box .details {
+		margin-top: 30px;
+		text-align: center;
+		margin-bottom: 15px;
+   }
+   /* =================================== VECTORS_iner.html CSS end ======================== */
+   /* ================================= Signup.html CSS start ======================== */
+	#sign-part .sign-card {
+		padding-bottom: 20px;
+		width: auto;
+   }
+	header .nav ul li {
+		margin-top: 15px;
+   }
+	.nav-tabs .nav-link {
+		font-size: 24px;
+		margin-left: 22px;
+   }
+   /* =================================== Signup.html CSS end ========================= */
+   /* ====================================== */
+}
+@media (min-width:768px) and (max-width:991.98px){
+	.title {
+		text-align: center;
+		margin-bottom: 30px;
+   }
+	.title h1 {
+		font-size: 28px;
+		line-height: 36px;
+   }
+	.title p {
+		font-size: 17px;
+		line-height: 26px;
+   }
+   /* --------------------- Nav part start ---------------------------*/
+	nav .navbar-brand img {
+		width: 85%;
+   }
+	.navbar-light .navbar-toggler {
+		color: #fff;
+		border-color:transparent;
+   }
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0;
+   }
+	nav .nav-item {
+		margin-right: 0px;
+		text-align: center;
+   }
+	nav .navbar-nav .sub-nav-item {
+		justify-content: center;
+   }
+	nav .nav-item .nav-link {
+		padding: 6px 0 !important;
+   }
+	.d-flex {
+		display: block !important;
+   }
+	nav .nav-button {
+		text-align: center;
+   }
+	nav button i{
+		font-size: 22px;
+   }
+   /* --------------------- Nav part end ---------------------------*/
+   /* --------------------- Banner part start ---------------------------*/
+	#banner-part {
+		padding-top: 80px;
+		padding-bottom: 40px;
+   }
+	#banner-part .title h1 {
+		font-size: 32px;
+		line-height: 42px;
+   }
+	#banner-part .title p {
+		font-size: 18px;
+		line-height: 28px;
+		margin-top: 15px;
+   }
+	#banner-part .search-box {
+		width: 100%;
+		height: 40px;
+		margin-top: 40px !important;
+   }
+	#banner-part .search-box .btn-secondary {
+		font-size: 14px;
+		margin-top: -4px;
+   }
+	#banner-part .search-box .btn-secondary::after {
+		margin-left: 25px;
+   }
+	#banner-part .search-box .form-control {
+		margin-top: -4px;
+		margin-left: 20px;
+		font-size: 14px;
+   }
+	#banner-part .search-box .search-icon {
+		margin-top: 6px;
+   }
+	#banner-part .search-box i {
+		font-size: 15px;
+		margin-top: 7px;
+		margin-right: 12px;
+   }
+	#banner-part .button-part .button {
+		padding: 7px 12px;
+		margin-left: 12px;
+		font-size: 13px;
+   }
+	#banner-part .images-part {
+		margin-top: 40px;
+   }
+	#banner-part .images-part .sub-col {
+		flex: 0 0 0%;
+		padding: 0 20px;
+   }
+	#banner-part .images-part .img-round{
+		margin-top: 17px;
+   }
+	#banner-part .images-part .img-round h5 {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 10px;
+   }
+   /* --------------------- Banner part end ---------------------------*/
+   /* --------------------- Sub-Banner part start ---------------------------*/
+	#sub-banner {
+		margin-bottom: 60px;
+   }
+	#sub-banner .main .text p {
+		font-size: 15px;
+		line-height: 25px;
+		margin-bottom: 0px;
+		margin-top: 11px;
+		width: auto;
+   }
+	#sub-banner .button {
+		padding: 10px 15px;
+		margin-left: 15px;
+		font-size: 12px;
+		margin-top: 5px;
+   }
+   /* --------------------- Sub-Banner part end ---------------------------*/
+   /* --------------------- categories part start ---------------------------*/
+	#categories-part {
+		margin-bottom: 50px;
+   }
+	#categories-part .top .img {
+		margin-top: 20px ;
+   }
+	#categories-part .top .img img {
+		height: 200px;
+   }
+	#categories-part .bottom .md-img{
+		width: 70%;
+		margin:0 auto;
+		margin-top: 20px;
+   }
+   /* --------------------- categories part end ---------------------------*/
+   /* --------------------- creator part start ---------------------------*/
+	#creator-part {
+		margin-bottom: 70px;
+   }
+	#creator-part .prev {
+		bottom: -30px;
+		left: 45%;
+		width: 30px;
+		height: 30px;
+		line-height: 29px;
+   }
+	#creator-part .next {
+		bottom: -30px;
+		left: 53%;
+		width: 30px;
+		height: 30px;
+		line-height: 29px;
+   }
+   /* --------------------- creator part end ---------------------------*/
+   /* --------------------- creative part end ---------------------------*/
+	#creative-part {
+		margin-bottom: 50px;
+   }
+	#creative-part .img-part {
+		margin-top: 0px;
+   }
+	#creative-part .img-part .left-img{
+		margin-right: 10px;
+   }
+	#creative-part .img-part .left-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .img-part .right-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .details .item {
+		padding: 15px 30px 22px 25px;
+		margin-top: 0px;
+		justify-content: center;
+   }
+	#creative-part .details .item .text p {
+		line-height: 24px;
+   }
+   /* --------------------- creative part end ---------------------------*/
+   /* --------------------- edit part end ---------------------------*/
+	#edit-part {
+		margin-bottom: 50px;
+   }
+	#edit-part .row {
+		flex-direction: column-reverse;
+   }
+	#edit-part .details {
+		margin-top: 30px;
+		text-align: center;
+   }
+	#edit-part .details .img img{
+		display: none;
+   }
+	#edit-part .details h4 {
+		font-size: 25px;
+		line-height: 30px;
+   }
+	#edit-part .details p {
+		font-size: 18px;
+		line-height: 28px;
+		width: auto;
+		margin-top: 15px;
+		padding: 0 40px;
+   }
+	#edit-part .details .button {
+		padding: 12px 20px;
+		font-size: 15px;
+		margin-top: 15px;
+		margin-left: 0px;
+   }
+	#edit-part .image {
+		margin-top: 0px;
+		margin-bottom: 10px;
+		text-align: center;
+   }
+	#edit-part .image img{
+		width: 80%;
+   }
+   /* --------------------- edit part end ---------------------------*/
+   /* --------------------- community part end ---------------------------*/
+	#community-part .img img{
+		width: 100%;
+   }
+	#community-part .details {
+		margin-top: 60px;
+   }
+	#community-part .details .title{
+		text-align: center;
+   }
+	#community-part .details .title p {
+		margin-top: 18px;
+   }
+	#community-part .details .community-button{
+		text-align: center;
+   }
+	#community-part .details .button {
+		padding: 10px 20px;
+		font-size: 15px;
+   }
+   /* --------------------- community part end ---------------------------*/
+   /* --------------------- footer part start ---------------------------*/
+	#footer-part {
+		padding: 20px;
+		padding-top: 50px;
+   }
+	#footer-part .line {
+		text-align: center;
+		padding: 40px 0px;
+   }
+	#footer-part .item h1 {
+		font-size: 22px;
+		margin-bottom: 10px;
+   }
+	#footer-part .item p {
+		line-height: 23px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 220px;
+   }
+	#footer-part .item .details h3 {
+		margin-bottom: 20px;
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul {
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul li {
+		margin-bottom: 8px;
+   }
+	#footer-part .item .details .form-icon {
+		margin-left: 0px;
+		margin: 0 auto;
+   }
+	#footer-part .item .icon i {
+		margin: 0 2px;
+   }
+	#footer-part .line::after {
+		bottom: -42px;
+   }
+	#copyright-part {
+		padding-bottom: 20px;
+   }
+	.top-button {
+		bottom: 85px;
+		right: 25px;
+		width: 35px;
+		height: 35px;
+		line-height: 37px;
+		font-size: 16px;
+   }
+   /* --------------------- footer part end ---------------------------*/
+   /* =============================== VECTORS.html CSS START ================================ */
+	#vector-heading .search-box {
+		width: auto;
+		height: 40px;
+		margin-top: 30px !important;
+		padding: 0;
+   }
+	#vector-heading .btn-secondary {
+		font-size: 14px;
+   }
+	#vector-heading .search-box .btn-secondary::after {
+		margin-left: 30px;
+   }
+	#vector-heading .search-box .form-control {
+		padding-left: 40px;
+   }
+	#vector-heading .search-box .btn-secondary::before {
+		right: -20px;
+   }
+	#vector-heading .search-box .search-icon {
+		margin-top: 11px;
+		font-size: 14px;
+   }
+	.slider-part {
+		width: 85%;
+   }
+	.slider-part .header-slider {
+		padding: 0 0px;
+   }
+	.slider-part .header-slider .item span {
+		font-size: 14px;
+		padding: 2px 15px;
+   }
+	.header-slider .item span i {
+		font-size: 14px;
+   }
+	.header-slider .prev {
+		bottom: -50px;
+		left: 38%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	.header-slider .next {
+		bottom: -50px;
+		left: 50%;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		font-size: 12px;
+   }
+	#show-sidebar {
+		width: 85px;
+		padding: 7px 8px;
+   }
+	#show-sidebar span {
+		font-size: 14px;
+   }
+	.sidebar-content {
+		width: 100%;
+		position: absolute !important;
+		top: -20px;
+		height: 350px;
+   }
+	.page-wrapper .page-content > div {
+		padding: 20px 10px;
+   }
+	.page-wrapper .page-content hr{
+		margin-top: 0px;
+   }
+	.page-wrapper .page-content h2 {
+		font-size: 26px;
+		line-height: 36px;
+		margin: 40px 0;
+   }
+	.images-part {
+		margin-bottom: 20px;
+   }
+	.images-part .res-sm{
+		margin: 0 auto;
+   }
+	.images-part .img {
+		height: 210px;
+		margin-top: 20px;
+   }
+	.images-part .img .overlay .icon {
+		margin-top: 140px;
+   }
+	.images-part .img .overlay .icon i {
+		width: 25px;
+		height: 25px;
+		line-height: 26px;
+		font-size: 12px;
+   }
+	.page-wrapper .page-content .vector-button .button {
+		font-size: 14px;
+		padding: 10px 20px;
+   }
+	.sponsored-part {
+		margin-bottom: 10px;
+   }
+   /* ================================= VECTORS.html CSS end ============================== */
+   /* ================================ VECTORS_iner.html CSS end ========================= */
+	#download-part {
+		margin-bottom: 50px;
+   }
+	#download-part .img-part .social-part .left {
+		justify-content: center;
+   }
+	#download-part .img-part .social-part .left .logo {
+		margin-left: -22px;
+   }
+	#download-part .img-part .social-button {
+		height: 36px;
+		font-size: 14px;
+		line-height: 28px;
+		padding: 5px 20px;
+		margin-top: 5px;
+   }
+	#download-part .img-part .social-part .right{
+		margin-top: 15px;
+   }
+	#download-part .img-part .tag-part .tag-button {
+		line-height: 18px;
+   }
+	#download-part .download-box .adds-box {
+		height: 150px;
+   }
+	#download-part .download-box .download-button .button {
+		font-size: 14px;
+		padding: 12px 40px;
+   }
+	#download-part .download-box .details {
+		margin-top: 30px;
+		text-align: center;
+		margin-bottom: 15px;
+   }
+   /* ============================== VECTORS_iner.html CSS end ======================== */
+   /* ====================================== */
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+	.title {
+		text-align: center;
+		margin-bottom: 30px;
+   }
+   /* --------------------- Nav part start ---------------------------*/
+	.navbar-light .navbar-brand {
+		width: 135px;
+		margin-right: 25px;
+   }
+	nav .navbar-brand img {
+		width: 85%;
+   }
+	.me-auto {
+		margin-right: 50px !important;
+   }
+	.navbar-light .navbar-toggler {
+		color: #fff;
+		border-color:transparent;
+   }
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0;
+   }
+	nav .nav-item {
+		margin-right: 10px;
+   }
+	nav .navbar-nav .sub-nav-item {
+		justify-content: center;
+   }
+	nav .nav-item .nav-link {
+		padding: 6px 0 !important;
+		margin-top: 4px;
+   }
+	.nav-scroll .nav-item .nav-link {
+		margin-top: 4px !important ;
+   }
+	nav .nav-button {
+		text-align: center;
+   }
+	nav button i{
+		font-size: 22px;
+   }
+   /* --------------------- Nav part end ---------------------------*/
+   /* --------------------- Banner part start ---------------------------*/
+	#banner-part {
+		padding-top: 80px;
+		padding-bottom: 40px;
+   }
+	#banner-part .title h1 {
+		font-size: 32px;
+		line-height: 42px;
+   }
+	#banner-part .title p {
+		font-size: 18px;
+		line-height: 28px;
+		margin-top: 15px;
+   }
+	#banner-part .search-box {
+		height: 40px;
+		margin-top: 40px !important;
+   }
+	#banner-part .search-box .btn-secondary {
+		font-size: 14px;
+		margin-top: -4px;
+   }
+	#banner-part .search-box .btn-secondary::after {
+		margin-left: 25px;
+   }
+	#banner-part .search-box .form-control {
+		margin-top: -4px;
+		margin-left: 20px;
+		font-size: 14px;
+   }
+	#banner-part .search-box .search-icon {
+		margin-top: 6px;
+   }
+	#banner-part .search-box i {
+		font-size: 15px;
+		margin-top: 7px;
+		margin-right: 12px;
+   }
+	#banner-part .button-part .button {
+		padding: 7px 12px;
+		margin-left: 12px;
+		font-size: 13px;
+   }
+	#banner-part .images-part {
+		margin-top: 40px;
+   }
+	#banner-part .images-part .sub-col {
+		flex: 0 0 0%;
+		padding: 0 20px;
+   }
+	#banner-part .images-part .img-round{
+		margin-top: 17px;
+   }
+	#banner-part .images-part .img-round h5 {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 10px;
+   }
+   /* --------------------- Banner part end ---------------------------*/
+   /* --------------------- Sub-Banner part start ---------------------------*/
+	#sub-banner {
+		margin-bottom: 60px;
+   }
+	#sub-banner .main .text p {
+		margin-top: 11px;
+   }
+   /* --------------------- Sub-Banner part end ---------------------------*/
+   /* --------------------- categories part start ---------------------------*/
+	#categories-part {
+		margin-bottom: 50px;
+   }
+	#categories-part .top .img {
+		margin-top: 20px ;
+   }
+   /* --------------------- categories part end ---------------------------*/
+   /* --------------------- creator part start ---------------------------*/
+	#creator-part {
+		margin-bottom: 70px;
+   }
+	#creator-part .prev {
+		bottom: -30px;
+		left: 45%;
+		width: 30px;
+		height: 30px;
+		line-height: 29px;
+   }
+	#creator-part .next {
+		bottom: -30px;
+		left: 53%;
+		width: 30px;
+		height: 30px;
+		line-height: 29px;
+   }
+   /* --------------------- creator part end ---------------------------*/
+   /* --------------------- creative part end ---------------------------*/
+	#creative-part {
+		margin-bottom: 50px;
+   }
+	#creative-part .img-part .left-img{
+		margin-right: 10px;
+   }
+	#creative-part .img-part .left-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .img-part .right-img img {
+		margin-top: 15px;
+		width: 100%;
+   }
+	#creative-part .details .item {
+		padding: 15px 20px 22px 30px;
+		margin-top: 0px;
+   }
+	#creative-part .details .item .text p {
+		width: auto;
+   }
+   /* --------------------- creative part end ---------------------------*/
+   /* --------------------- edit part end ---------------------------*/
+	#edit-part {
+		margin-bottom: 50px;
+   }
+	#edit-part .details {
+		margin-top: 50px;
+   }
+	#edit-part .details h4 {
+		font-size: 25px;
+		line-height: 30px;
+   }
+	#edit-part .details p {
+		margin-top: 15px;
+   }
+	#edit-part .details .button {
+		margin-top: 15px;
+		margin-left: 0px;
+   }
+	#edit-part .image {
+		margin-top: 0px;
+		margin-bottom: 10px;
+		text-align: center;
+   }
+	#edit-part .image img{
+		width: 100%;
+   }
+   /* --------------------- edit part end ---------------------------*/
+   /* --------------------- community part end ---------------------------*/
+	#community-part .img img{
+		width: 100%;
+   }
+	#community-part .details {
+		margin-top: 60px;
+   }
+	#community-part .details .title{
+		text-align: center;
+   }
+	#community-part .details .title p {
+		margin-top: 18px;
+   }
+	#community-part .details .community-button{
+		text-align: center;
+   }
+   /* --------------------- community part end ---------------------------*/
+   /* --------------------- footer part start ---------------------------*/
+	#footer-part {
+		padding: 20px;
+		padding-top: 50px;
+   }
+	#footer-part .line {
+		text-align: center;
+		padding: 40px 0px;
+   }
+	#footer-part .item h1 {
+		font-size: 22px;
+		margin-bottom: 10px;
+   }
+	#footer-part .item p {
+		line-height: 23px;
+		margin-bottom: 20px;
+   }
+	#footer-part .item .details h3 {
+		margin-bottom: 20px;
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul {
+		margin-left: 0px;
+   }
+	#footer-part .item .details ul li {
+		margin-bottom: 8px;
+   }
+	#footer-part .item .details .form-icon {
+		margin-left: 0px;
+		margin: 0 auto;
+   }
+	#footer-part .item .icon i {
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 13px;
+   }
+	#footer-part .line::after {
+		bottom: -42px;
+   }
+	#copyright-part {
+		padding-bottom: 20px;
+   }
+	.top-button {
+		bottom: 85px;
+		right: 25px;
+		width: 40px;
+		height: 40px;
+		line-height: 42px;
+		font-size: 18px;
+   }
+   /* --------------------- footer part end ---------------------------*/
+   /* =========================== VECTORS_iner.html CSS end ========================== */
+	#download-part {
+		margin-bottom: 50px;
+   }
+	#download-part .img-part .social-part .left {
+		justify-content: center;
+   }
+	#download-part .img-part .social-part .left .logo {
+		margin-left: -22px;
+   }
+	#download-part .img-part .social-part .right .social-button {
+		margin-right: 12px;
+   }
+	#download-part .img-part .social-button {
+		height: 36px;
+		font-size: 12px;
+		line-height: 28px;
+		padding: 5px 20px;
+		margin-top: 5px;
+   }
+	#download-part .img-part .tag-part .tag-button {
+		line-height: 18px;
+   }
+	#download-part .download-box .adds-box {
+		height: 180px;
+   }
+	#download-part .download-box .download-button .button {
+		font-size: 16px;
+		padding: 12px 40px;
+   }
+   /* ======================== VECTORS_iner.html CSS end ============================= */
+   /* ====================================== */
+}
